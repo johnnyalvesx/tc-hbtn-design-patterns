@@ -1,13 +1,13 @@
 public class Director {
 
-    void buildGuerreiro(Builder builder) {
-        builder.setNome("Guerreiro");
-        builder.setTipo(TipoPersonagem.GUERREIRO);
-        builder.setInteligencia(1);
-        builder.setForca(8);
-        builder.setDestreza(6);
-        builder.setVigor(5);
-        builder.setResistencia(10);
+    void buildGuerreiro(Builder biulder) {
+        biulder.setNome("Guerreiro");
+        biulder.setTipo(TipoPersonagem.GUERREIRO);
+        biulder.setInteligencia(1);
+        biulder.setForca(8);
+        biulder.setDestreza(6);
+        biulder.setVigor(5);
+        biulder.setResistencia(10);
     }
 
     void buildLadrao(Builder builder) {
